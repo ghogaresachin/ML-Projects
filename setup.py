@@ -14,6 +14,7 @@ def get_requirements(file_path: str) -> list:
 
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
+            
     return requirements
 
 
